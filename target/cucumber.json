@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Addition of two numbers",
+        "description": "",
+        "id": "basic-math;addition-of-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98846287,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The number \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 12
+                }
+              ],
+              "location": "MathSteps.The_number(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167654,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"1\" is added the total",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 1
+                }
+              ],
+              "location": "MathSteps.is_added_the_total(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1520631,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The result is \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 15
+                }
+              ],
+              "location": "MathSteps.The_result_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Addition of two numbers incorrectly",
+        "description": "",
+        "id": "basic-math;addition-of-two-numbers-incorrectly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 69200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The number \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 12
+                }
+              ],
+              "location": "MathSteps.The_number(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37850,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"3\" is added the total",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 1
+                }
+              ],
+              "location": "MathSteps.is_added_the_total(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33967,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The result is \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "MathSteps.The_result_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Basic Math",
+    "description": "",
+    "id": "basic-math",
+    "keyword": "Feature",
+    "uri": "com/dev9/math/basic_math.feature"
+  }
+]

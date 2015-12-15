@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="7.081118">
+<testcase classname="Enter a search in Google" name="Search results should display the search term in the page title when pressing &quot;enter&quot;" time="3.566945">
+<system-out><![CDATA[Given A Google search page..................................................passed
+When I enter the search term "cats".........................................passed
+And I submit the search by pressing "enter".................................passed
+Then The search result page title should contain the search term............passed
+]]></system-out>
+</testcase>
+<testcase classname="Enter a search in Google" name="Search results should display the search term in the page title when pressing &quot;search&quot;" time="1.549923">
+<system-out><![CDATA[Given A Google search page..................................................passed
+When I enter the search term "dogs".........................................passed
+And I submit the search by pressing "search"................................passed
+Then The search result page title should contain the search term............passed
+]]></system-out>
+</testcase>
+<testcase classname="Enter a search in Google" name="Search results should display the search term in the title regardless of submission method" time="1.044793">
+<system-out><![CDATA[Given A Google search page..................................................passed
+When I enter the search term "cats".........................................passed
+And I submit the search by pressing "enter".................................passed
+Then The search result page title should contain the search term............passed
+]]></system-out>
+</testcase>
+<testcase classname="Enter a search in Google" name="Search results should display the search term in the title regardless of submission method" time="0.919457">
+<system-out><![CDATA[Given A Google search page..................................................passed
+When I enter the search term "dogs".........................................passed
+And I submit the search by pressing "search"................................passed
+Then The search result page title should contain the search term............passed
+]]></system-out>
+</testcase>
+</testsuite>
